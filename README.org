@@ -1,4 +1,4 @@
-#+title: Readme
+#+title: GoDB
 #+author: Mir Saheb Ali
 
 ** Database in Go from scratch
