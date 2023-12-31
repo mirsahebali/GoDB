@@ -1,0 +1,47 @@
+#+TITLE: Database from scratch
+#+AUTHOR: Mir Saheb Ali
+#+OPTIONS: toc:4
+#+STARTUP: showeverything
+
+* Table of contents  :toc:
+- [[#features][Features]]
+  - [[#basic-crud-functionalities][Basic CRUD Functionalities]]
+  - [[#relations-between-objects][Relations between objects]]
+  - [[#interoparability][Interoparability]]
+  - [[#socketswebsockets][Sockets/Websockets]]
+  - [[#concurrency][Concurrency]]
+  - [[#transactions][Transactions]]
+  - [[#logs-and-check-points][Logs and check points]]
+  - [[#rollback-and-recovery][Rollback and Recovery]]
+  - [[#permissions-and-grant-access-in-it][Permissions and Grant access in it]]
+  - [[#authentication-and-read-and-write-access][Authentication and Read and Write ACCESS]]
+- [[#principles][Principles]]
+  - [[#normalization][/Normalization/]]
+  - [[#acid-principle][ACID Principle]]
+  - [[#concurrency-1][Concurrency]]
+
+* Features 
+** Basic CRUD Functionalities
+** Relations between objects
+** Interoparability 
+-between different languages by running a daemon in the background and reading from it's provided output when making a syscall to it.
+ 
+** Sockets/Websockets
+** Concurrency
+** Transactions
+** Logs and check points
+** Rollback and Recovery
+- rollback to a checkpoint on failure
+- This could be given as optional to add and use
+** Permissions and Grant access in it
+** Authentication and Read and Write ACCESS
+
+* Principles
+** /Normalization/
+*** 1 - 5 Normal Forms
+** ACID Principle 
+*** Atomicity
+*** Consistency
+*** Isolation
+*** Durability
+** Concurrency

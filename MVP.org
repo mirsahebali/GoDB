@@ -1,0 +1,39 @@
+#+TITLE: Database from scratch (MVP)
+#+AUTHOR: Mir Saheb Ali
+#+OPTIONS: toc:4
+#+STARTUP: showeverything
+
+* Table of contents :toc:
+- [[#crud-operation][CRUD Operation]]
+  - [[#create][Create]]
+  - [[#read][Read]]
+  - [[#update][Update]]
+  - [[#delete][Delete]]
+- [[#relation][Relation]]
+  - [[#define-relations][Define relations]]
+  - [[#add-crud-operations-to-it][Add CRUD operations to it]]
+
+* CRUD Operation
+** Create 
+*** Tables / entities
+*** Cluster(s) of entities
+*** Relation between entities
+** Read
+*** Tuples with certain conditions
+*** The schema and attributes relation
+** Update
+*** Tuples
+*** Attribute names
+*** Table / entity name
+*** Cluster name
+*** Relations
+** Delete 
+*** Tuples
+*** Attribute names
+*** Table / entity name
+*** Cluster name
+*** Relations
+
+* Relation
+** Define relations
+** Add CRUD operations to it
